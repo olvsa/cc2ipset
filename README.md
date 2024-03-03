@@ -6,8 +6,11 @@ Usage:  ./cc2ipset.py <two letters country code> <.{/CC_ipvX.ipset}>
 
 CC_ipv4.ipset:
 ipset flush ipv4_CC
+
 ipset x ipv4_CC
+
 ipset n ipv4_CC hash:net hashsize 16384 maxelem 262144
+
 ipset add ipv4_CC A1.B1.C1.D1/E1
 ipset add ipv4_CC A2.B2.C2.D2/E2
 
