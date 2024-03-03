@@ -2,7 +2,7 @@
 Creates ipset shell script from an country's IP addresses from RIPE database.<br />
 Supports both of IPv4 and IPv6.<br />
 <br />
-Usage:  ./cc2ipset.py <two letters country code> <.{/CC_ipvX.ipset}><br />
+Usage:  ./cc2ipset.py \<two letters country code\> \<.{/CC_ipvX.ipset}\><br />
 <br />
 CC_ipv4.ipset:<br />
 ipset flush ipv4_CC<br />
